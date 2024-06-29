@@ -25,7 +25,6 @@ async function theOfficeCharacters() {
                 <p>Actor: ${character.actor}</p>
             `;
         });
-        console.log(parsedCharacters)
 
     } catch (err) {
         console.log(err.message, 'error');
